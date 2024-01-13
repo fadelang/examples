@@ -1,0 +1,25 @@
+use fadelang::runtime::println;
+
+main(): -> 0 {
+    loop for index: uint8, index < uint8::MAX, i++ {
+        fizz: boolean = index % 3;
+        buzz: boolean = index % 5;
+        
+        if fizz && buzz {
+            println("fizzbuzz");
+            continue;
+        }
+        
+        if fizz {
+            println("fizz");
+            continue;
+        }
+        
+        if buzz {
+            println("buzz");
+            continue;
+        }
+        
+        println(index);
+    }
+}

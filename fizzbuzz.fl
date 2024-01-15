@@ -1,6 +1,6 @@
 use fadelang::runtime::println;
 
-main(): -> 0 {
+main(): {
     loop for index: uint8, index < uint8::MAX, i++ {
         fizz: boolean = index % 3;
         buzz: boolean = index % 5;

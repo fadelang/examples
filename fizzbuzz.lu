@@ -1,4 +1,4 @@
-use fadelang::runtime::println;
+use luft::process::println;
 
 main(): {
     loop for index: uint8, index < uint8::MAX, i++ {

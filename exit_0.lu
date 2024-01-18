@@ -1,3 +1,5 @@
+// comment until end of line none of this should appear in the lexer
+/*  block comment  */
 main(): -> u8 {
-    return 0;
+    /* block comment */ return /* another one */ 0;
 }
